@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.board {
+    position: absolute;
+    border: 1px solid;
+    height: 480px;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 8px 8px rgb(0 0 0 / 65%);
+    background: #F0D9B5;
+    z-index: -2;
+}
+
+.preta {
+    background: #B58863;
+}
+
+.celula {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+.cavalo{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    left: 65px;
+    animation: L 13s ease infinite;
+}
+
+#quadrado{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgb(91, 209, 91);
+    left: 69px;
+    top: 9px;
+    z-index: -1;
+    opacity: 0%;
+    animation: destaque 13s infinite;
+}
