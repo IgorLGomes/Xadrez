@@ -4,11 +4,11 @@
 }
 
 body{
-    background-color: rgb(255, 232, 203);
+    background-color: rgb(146, 132, 115);
 }
 
 .board{
-    top: 100px;
+    top: 150px;
     position: relative;
     margin: auto;
     border: solid #000000;
@@ -103,21 +103,20 @@ body{
     height: 50px;
     width: 50px;
     animation: mov 10s infinite;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 @keyframes mov{
     0%{top: 0;left: 50px;}
     10%{top: 100px;left: 50px;}
-    15%{top: 100px;left: 100px;}
+    16%{top: 100px;left: 100px;}
     22%{top: 200px;left: 100px;}
-    27%{top: 200px;left: 150px;}
+    28%{top: 200px;left: 150px;}
     34%{top: 300px;left: 150px;}
-    39%{top: 300px; left: 200px;}
+    40%{top: 300px;left: 200px;}
     46%{top: 350px;left: 200px;}
-    51%{top: 350px;left: 300px;}
-    64%{top: 350px;left: 300px;}
-    /*voltando*/
+    52%{top: 350px;left: 300px;}
+    66%{top: 350px;left: 300px;}
     70%{top: 350px;left: 200px;}
     72%{top: 300px;left: 200px;}
     74%{top: 300px;left: 150px;}
